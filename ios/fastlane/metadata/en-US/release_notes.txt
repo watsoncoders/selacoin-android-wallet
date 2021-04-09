@@ -1,0 +1,68 @@
+v6.0.8
+======
+
+* ADD: RTL language support
+* ADD: ANG and AWG currencies
+* ADD: show fingerprint and derivation path for HD wallets
+* ADD: allow send MAX and BATCH for all wallet types
+* FIX: App crashes after changing vault key from seed to ZPUB and vice versa #2867
+* FIX: aezeed onchain wallet produces correct zpub
+* FIX: crash on wallet->details for single-address wallets
+* FIX: address input qrcode denomination reset
+* FIX: sync loc bg, he, id, it, jp, nl, tr, br, de, pl, fa , ro, es, fr, zh_TW, zh_CN, cs_CZ
+* FIX: Set Hebrew as RTL language
+* REF: currency rates loader, add LPB new rate source
+* REF: import procedure improvements
+
+v6.0.7
+======
+
+* ADD: main view SCAN button can now import watch-only wallets
+* ADD: wallets message sign/verify
+* ADD: Romanian language
+* ADD: TZS Fiat
+* FIX: Additional fixes for voiceover
+* FIX: Manage funds button would not be visible when switching wallets on large screen devices
+* FIX: show XPUB for AEZEED wallets
+* FIX: add titles to all the alerts
+* FIX: Widgets didnt have preview code
+* FIX: Wallet selection was not visible
+* FIX: Localizations for fr_FR, zh_TW, zh_CN, fi_FI, fa_IR, de_DE, nl_NL, pt_BR, sl_SI
+* FIX: Switch toggles are now accessible
+* FIX: XPub modal on watchkit had no cancel button
+* FIX: avoid scientific notation on tx send screens
+* FIX: CoinControl handle 0 conf tx output correctly
+* FIX: Wallet Icons (RTL Version)
+* REF: decrease animated QR codes density
+* REF: Always check for clipboard privacy preferences when using shortcuts
+* REF: MAX can be used with regular outputs
+* REF: Wallets cards colors optimized
+
+v6.0.6
+======
+
+* ADD: PSBT cosign
+* ADD: Long press Transaction Row to get shortcuts
+* ADD: Tap and hold to Share QRCode image
+* ADD: qrcode scanner to wallet/broadcast screen
+* ADD: Apple Watch Price Complication
+* ADD: Update complication currency based on user preference
+* ADD: Copying Block Explorer Link
+* ADD: If unable to connect to server, show alert
+* FIX: Delete wallet button should be red
+* FIX: Wallet delete would cause crash
+* FIX: broken buyBitcoin button for some wallets
+* FIX: Browser crash when accessing wallet
+* FIX: sometimes broken webview
+* FIX: Some widgets were not showing on drawer
+* FIX: screen titles language
+* FIX: Complication app update when watch app isnt launched
+* FIX: QRCode save alert description
+* FIX: Only send complication updates if watch is reachable
+* FIX: QRCode size on large devices
+* FIX: fix size and share button
+* FIX: sync loc files for ar, ru, ca, he, pl, ja_JP, pt_BR, pt_PT, sv_SE, th_TH, zh_CN, fi_FI, fa_IR, de_DE, nl_NL, fr_FR
+* REF: transactions/details screen gracefull error handling
+* REF: electrum protocol error graceful handling
+* REF: better bitcoinscript error handling
+* REF: Fee selection in darkmode
